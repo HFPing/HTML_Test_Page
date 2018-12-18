@@ -147,6 +147,15 @@ border-bottom: 1px solid black;
 	background-color: white;
 }
 
+.main-container-wrap {
+	margin: auto;
+	width: 40%;
+  border: 3px solid green;
+	padding: 10px 10px;
+  background-color: white;
+  margin-bottom: 50px;
+}
+
 .my-footer {
 	position: fixed;
 	left: 0;
