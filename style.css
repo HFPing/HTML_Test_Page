@@ -1,0 +1,148 @@
+html {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+body{
+	background-color: gainsboro;
+	margin:0;
+	padding-top: 50px;
+	height: 100%;
+	background: url("SSD-vs-HDD.png") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+h1 {
+	color: black;
+	margin-left: 20px;
+}
+p {
+	color: black;
+	margin-left:20px;
+}
+
+#centerdiv {
+ position:absolute;
+ top:50%;
+ left:50%;
+ margin-top:-50px;
+ margin-left:100px;
+}
+
+ u1 {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}:img {
+	max-width: 100%;
+	height:auto;
+	margin:auto;
+	padding-top: 25px;
+}
+article {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width:100%;
+	line-height: 1.5;
+	font-size:18px;
+}
+.topnav {
+	background-color:#BCA9F5;
+	overflow: hidden;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	position: fixed;
+	top:0;
+	width:100%;
+}
+.topnav a{
+	float:left;
+	color:black;
+	text-align: center;
+	padding:14px 20px;
+	text-decoration:none;
+	font-size:17px;
+}
+.topnav a:hover{
+	background-color: white;
+	color:grey;
+}
+.topnav a:hover:not(.active){
+	background-color:white;
+	color:grey;
+}
+.topnav a.active{
+	background-color:#F2EFFB;
+	color:black;
+}.topspace{
+	padding:20px;
+	margin-top:30px;
+	background:-color#424242;
+	height:1500px;
+}
+.hangingindent{ 
+	padding-left:22px;
+	text-indent:-22px;
+}
+@media only screen and (max-width:700px) {
+.banner{
+background-attachment:scroll;
+}
+article,.topnav{
+display:block;
+}
+.topnav a{
+padding: 0px;
+}
+.topnav >*{
+border-bottom: 1px solid black;
+}}
+/* For mobile phones: */
+[class*="col-"] {
+	width: 100%;
+}
+@media only screen and (min-width:600px) {
+	/*For tablets: */
+	.col-m-1 {width: 8.33%;}
+	.col-m-2 {width: 16.66%;}
+	.col-m-3 {width: 25%;}
+	.col-m-4 {width: 33.33%;}
+	.col-m-5 {width 41.66%;}
+	.col-m-6 {width 50%;}
+	.col-m-7 {width 58.33%;}
+	.col-m-8 {width 66.66%;}
+	.col-m-9 {width 75%;}
+	.col-m-10 {width 83.33%;}
+	.col-m-11 {width 91.66%;}
+	.col-m-12 {width 100%;}
+}
+@media only screen and (min-width: 768px) {
+	/*For desktop: */
+	.col-1 {width: 8.33%;}
+	.col-2 {width: 16.66%;}
+	.col-3 {width: 25%;}
+	.col-4 {width: 33.33%;}
+	.col-5 {width: 41.66;}
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%}
+	.col-12 {width: 100%;}
+	header h1 {margin: 1em 0 1em 0;}
+}
+
+.main-container {
+	margin: auto;
+	width: 40%;
+	height: 100%;
+  	border: 3px solid green;
+	padding: 10px 10px;
+	background-color: white;
+}
